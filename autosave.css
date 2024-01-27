@@ -1,0 +1,40 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #c6b2f9cb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 4% auto;
+    padding: 2rem;
+    background-color: #8e77da;
+    background: linear-gradient(30deg,rgba(101, 59, 185, 0.611),rgba(185, 104, 247, 0.2));
+    border-radius: 1.2rem;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(64, 28, 210, 0.611);
+    text-align: center;
+}
+
+h1 {
+    color: #3e25bdc2;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 96%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    background: linear-gradient(30deg,rgba(255, 255, 255, 0.611),rgba(204, 204, 204, 0.2));
+    border: 0.12rem solid #aba1bebf;
+    border-radius: 0.9rem;
+    resize: vertical;
+    min-height: 14rem;
+}
+
+textarea:focus {
+    background: linear-gradient(30deg, rgba(204, 204, 204, 0.2), rgba(255, 255, 255, 0.611));
+    box-shadow: 0.3rem 0.2rem 1rem rgba(104, 100, 114, 0.611);
+    outline: none;
+}
